@@ -2,7 +2,7 @@ name: Event Filters
 on:
  push:
   branches:
-   - main 
+   - dev
    - 'releases/**'
   paths-ignore:
    - 'docs/**'
