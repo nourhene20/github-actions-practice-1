@@ -38,8 +38,8 @@ jobs:
             echo "Home directory: ${{ env.HOME }}"
         - name: Secrets Context Test
           env:
-          TEST_API_KEY: "key"
-          DATABASE_URL: "db url"
+            TEST_API_KEY: "key"
+            DATABASE_URL: "db url"
           run: |
             echo "=== Secrets Availability Check ==="
             echo "Has TEST_API_KEY secret: ${{ secrets.TEST_API_KEY != '' }}"
