@@ -3,7 +3,7 @@ on: [push,pull_request,workflow_dispatch]
 
 jobs:
     echo-job:
-      name: echo
+      name: echo 
       runs-on: ubuntu-latest
       steps:
         - name: echo trigger 
